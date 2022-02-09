@@ -5,13 +5,13 @@ public class Funcionario {
 	private double salario;
 	
 	
-	// Contrutor (sempre tem o nome da classe) e diferente de um metodo ele não retorna nada.
+	// Contrutor (sempre tem o nome da classe) é diferente de um metodo ele não retorna nada.
 	public Funcionario() {
 		
 	}
 	
 	public double getBonificacao() {
-		return this.salario * 0.1;
+		return this.salario * 0.05;
 	}
 	
 	public String getNome() {
