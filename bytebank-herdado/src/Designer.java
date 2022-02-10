@@ -1,4 +1,4 @@
-
+// Herda da class Funcionario.
 public class Designer extends Funcionario {
 
 	  public double getBonificacao() {
